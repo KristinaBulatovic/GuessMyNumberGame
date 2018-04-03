@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<center>
+    <div class="main">
+        <p class="title">Try to guess a number between 1 and 100.<br>
+            You have 10 attempts!</p>
+        <div class="left">
+            <div id="wl" class="w-l">
+                <p id="winlostp" class="wlp"></p>
+                <input class="wlbtn" type="button" value="Start the Game" onclick="start()">
+            </div>
+            <div id="win-lost" class="top">
+                <p id="att" class="attempt">Your attempt 1:</p>
+                <input id="num" class="txt" type="text" maxlength="3" onfocus="del()" onkeydown="if (event.keyCode == 13)
+                       document.getElementById('button').click()">
+                <input id="button" class="btn" type="button" value="OK!" onclick="checkNumber()">
+            </div>
+            <div class="down">
+                <p id="text"></p>
+            </div>
+        </div>
+        <div class="right">
+            <img class="imggmn" id="image" src="img/gmn.png">
+        </div>
+    </div>
+</center>
+
+<script type="text/javascript" src="gmn.js"></script>
+</body>
+</html>

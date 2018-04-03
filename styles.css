@@ -1,0 +1,84 @@
+.main {
+    width: 500px;
+}
+
+.left {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.top {
+    width: 100%;
+    height: 200px;
+}
+
+.down {
+    width: 100%;
+    height: 100px;
+}
+
+.right {
+    width: 200px;
+    height: 300px;
+    float: right;
+}
+
+.w-l{
+    display: none;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.wlbtn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Palatino Linotype";
+}
+
+.wlp{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: red;
+}
+
+p{
+    margin: 0;
+    font-size: 20px;
+    font-family: "Palatino Linotype";
+}
+
+p.attempt{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.imggmn{
+    width:400px;
+    height: 300px;
+}
+
+img{
+    width:0px;
+    height: 0px;
+}
+
+input.txt {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    font-family: "Palatino Linotype";
+}
+
+input.btn{
+    width: 100px;
+    font-size: 14px;
+    font-family: "Palatino Linotype";
+}
